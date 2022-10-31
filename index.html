@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- NAVBAR 1-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="airbnb-logo.png" width="159" height="68" class="d-inline-block align-top" alt=""></a>
@@ -21,30 +21,33 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarColor03">
             <ul class="navbar-nav me-auto">
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link active" href="#">Home
                   <span class="visually-hidden">(current)</span>
                 </a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Anywhere</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Any week</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
+              <li>
+                <form class="d-flex justify-self-center">
+                <input class="form-control me-sm-2" type="text" placeholder="Add guests">
+                <button class="btn btn-danger my-2 my-sm-0 rounded-circle" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg></button>
+                </form>
+                </li>   
+            
+
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-sm-2" type="text" placeholder="Search">
-              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </div>
+            </div>
         </div>
       </nav>
     <!-- NAVBAR 2-->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm">
         <div class="container-fluid">
 
           <div class="collapse navbar-collapse" id="navbarText">
@@ -54,8 +57,9 @@
                 <a class="nav-link" href="#"><img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" alt="..." width="24" height="24" class="icon"/><p>OMG</p></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="..." width="24" height="24" class="icon"/><p>Amazing pools</p></a>
-              </li>
+                <a class="nav-link" href="#"><img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="..." width="24" height="24" class="icon d-flex justify-content-center"/><p>Amazing pools</p></a>
+              <!--I tried to center the category titles, but I am not sure how to do that  -->
+            </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"><img src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" alt="..." width="24" height="24" class="icon"/><p>Amazing views</p></a>
               </li>
@@ -77,41 +81,126 @@
         </div>
     </div>  -->
     <!--CARDS-->
-    <div class="container">
+    <div class="container margin-0">
         <div class="row">
-            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
                 <img src="https://a0.muscache.com/im/pictures/e28d45ab-175b-45e4-9e22-9f2fc12b30df.jpg?im_w=720" alt="..." class="rounded img-fluid card-img-top h-100">
                 <div class="card-body">
-                <h5 class="card-title">Card Title</h5>
-                <p class="card-text">rental info</p>
+                <h6 class="card-title">Mayne Island, Canada</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
+                </p>
                 </div>
             </div>
-            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
                 <img src="https://a0.muscache.com/im/pictures/4270f394-8caf-4e97-a9d5-102c681b3145.jpg?im_w=720" alt="..." class="rounded img-fluid card-img-top h-100">
                 <div class="card-body">
-                <h5 class="card-title">Card Title</h5>
-                <p class="card-text">rental info</p>
+                <h6 class="card-title">Kalispell, Montana, US</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
                 </div>
             </div>
-            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
                 <img src="https://a0.muscache.com/im/pictures/c88d4356-9e33-4277-83fd-3053e5695333.jpg?im_w=720" alt="..." class="rounded img-fluid card-img-top h-100">
                 <div class="card-body">
-                <h5 class="card-title">Card Title</h5>
-                <p class="card-text">rental info</p>
+                <h6 class="card-title">Fernwood, Idaho, US</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
                 </div>
             </div>
-            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
                 <img src="https://a0.muscache.com/im/pictures/miso/Hosting-51165983/original/3a6e9b62-da6b-4a76-af0b-003eafc7b8ec.jpeg?im_w=720" alt="..." class="rounded img-fluid card-img-top h-100">
                 <div class="card-body">
-                <h5 class="card-title">Card Title</h5>
-                <p class="card-text">rental info</p>
+                <h6 class="card-title">Brush Prairie, Washington, US</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
+                </div>
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
+                <img src="https://a0.muscache.com/im/pictures/1e16f2f4-1256-44cb-a0f2-85aa57672a45.jpg?im_w=720" alt="..." class="rounded img-fluid card-img-top h-100">
+                <div class="card-body">
+                <h6 class="card-title">Bend, Oregon, US</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
+                </div>
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
+                <img src="https://a0.muscache.com/im/pictures/2011683a-c045-4b5a-97a8-37bca4b98079.jpg?im_w=720" alt="..." class="rounded img-fluid card-img-top h-100">
+                <div class="card-body">
+                <h6 class="card-title">Tetonia, Idaho, US</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
+                </div>
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
+                <img src="https://a0.muscache.com/im/pictures/56467892-0d23-4ab1-8302-9c3d0d5e52cd.jpg?im_w=720" alt="..." class="rounded img-fluid card-img-top h-100">
+                <div class="card-body">
+                <h6 class="card-title">Cedar City, Utah, US</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
+                </div>
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-17670138/original/f28ff260-2b32-4b45-867d-4f099b4931fd.jpeg?im_w=720" alt="..." class="rounded img-fluid card-img-top h-100">
+                <div class="card-body">
+                <h6 class="card-title">Delta, Colorado, US</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
+                </div>
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
+                <img src="https://via.placeholder.com/150" alt="..." class="rounded img-fluid card-img-top h-100">
+                <div class="card-body">
+                <h6 class="card-title">Card Title</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
+                </div>
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
+                <img src="https://via.placeholder.com/150" alt="..." class="rounded img-fluid card-img-top h-100">
+                <div class="card-body">
+                <h6 class="card-title">Card Title</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
+                </div>
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
+                <img src="https://via.placeholder.com/150" alt="..." class="rounded img-fluid card-img-top h-100">
+                <div class="card-body">
+                <h6 class="card-title">Card Title</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
+                </div>
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
+                <img src="https://via.placeholder.com/150" alt="..." class="rounded img-fluid card-img-top h-100">
+                <div class="card-body">
+                <h6 class="card-title">Card Title</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
+                </div>
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
+                <img src="https://via.placeholder.com/150" alt="..." class="rounded img-fluid card-img-top h-100">
+                <div class="card-body">
+                <h6 class="card-title">Card Title</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
+                </div>
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
+                <img src="https://via.placeholder.com/150" alt="..." class="rounded img-fluid card-img-top h-100">
+                <div class="card-body">
+                <h6 class="card-title">Card Title</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
+                </div>
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
+                <img src="https://via.placeholder.com/150" alt="..." class="rounded img-fluid card-img-top h-100">
+                <div class="card-body">
+                <h6 class="card-title">Card Title</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
+                </div>
+            </div>
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 border-0">
+                <img src="https://via.placeholder.com/150" alt="..." class="rounded img-fluid card-img-top h-100">
+                <div class="card-body">
+                <h6 class="card-title">Card Title</h6>
+                <p class="card-text">702 km away<br>Oct. 29 - Nov. 3<br>$271 CAD night</p>
                 </div>
             </div>
 
         </div>
     </div>
     <!-- FOOTER -->
-    <nav class="navbar fixed-bottom bg-light">
+    <nav class="navbar fixed-bottom bg-light border-top">
         <div class="container-fluid">
             &copy; 2022 Airbnb, Inc.
           <a class="nav-link" href="#">English(CA)</a>
